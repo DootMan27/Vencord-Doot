@@ -1,0 +1,66 @@
+.vc-simple-codec-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 8px 0;
+    color: var(--text-default, var(--text-normal));
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.vc-simple-codec-toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.vc-simple-codec-password {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.vc-simple-codec-password input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--border-normal, #666);
+    border-radius: 6px;
+    background: var(--input-background, var(--background-secondary));
+    color: inherit;
+    font: inherit;
+}
+
+.vc-simple-codec-controls p {
+    margin: 0;
+    color: var(--text-muted);
+}
+
+.vc-simple-codec-on {
+    color: var(--status-positive, #43b581);
+}
+
+.vc-simple-codec-badge {
+    display: inline-block;
+    margin-left: 4px;
+    padding: 1px 5px;
+    border: 1px solid currentcolor;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 1.4;
+    vertical-align: middle;
+}
+
+.vc-simple-codec-decoded {
+    color: var(--status-positive, #43b581);
+}
+
+.vc-simple-codec-encoded {
+    color: var(--status-warning, #faa61a);
+}
+
+.vc-simple-codec-plain {
+    color: var(--text-muted);
+}
